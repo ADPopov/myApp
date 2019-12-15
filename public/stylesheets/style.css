@@ -1,0 +1,117 @@
+
+body {
+    margin-top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("/images/backgroung.jpg");
+    background-attachment: fixed;
+}
+
+.logIn-btn {
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0,0,0,.1);
+    transition: .3s;
+  }
+
+.logIn-btn:hover {
+    background: #2EE59D;
+    box-shadow: 0 15px 20px rgba(46,229,157,.4);
+    color: white;
+    transform: translateY(-7px);
+  }
+
+.header {
+    display: flex;
+    height: 220px;
+    background-color: #6494ed80;
+}
+
+.left-block {
+    display: block;
+    background-color: rgba(20, 17, 223, 0.3);
+    width: 70%;
+    padding-left: 50px;
+    padding-top: 60px;
+    margin-bottom: 0;
+}
+
+.left-block a {
+    color: white;
+    padding: 30px;
+    font-size: 24px;
+}
+
+.left-block h1 {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.right-block {
+    background-color: rgba(28, 24, 255, 0.3);
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    padding-top: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.login-text {
+    font-size: 18px;
+    color: white;
+    
+}
+
+.odd-block {
+    text-align: justify;
+    margin-top: 0;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(0, 131, 192, 0.2);
+}
+
+.odd-block h2 {
+    text-align: right;
+}
+
+.even-block {
+    text-align: justify;
+    margin-top: 0;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(39, 221, 2, 0.2);
+}
+
+.img-left {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 180px;
+}
+
+.img-right {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 180px;
+}
