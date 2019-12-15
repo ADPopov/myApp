@@ -4,8 +4,14 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
+var cookieSession = require('cookie-session')
 
 var app = express();
+
+app.use(cookieSession({
+    name: 'session',
+    secret: 'secret'
+  }))
 
 app.use(logger('dev'));
 app.use(express.json());

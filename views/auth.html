@@ -15,16 +15,24 @@
       <li><a href="/">Главная</a></li>
     </ul>
   </nav>
-  <h1>Войти</h1>
-  <a>Войдите в систему, чтобы быть в системе авторизованым))<a>
-      <form action="/api/authorization" method="post">
-        <label>Email </label>
-        <input type="text" name="email">
-        <br />
-        <label>Пароль </label>
-        <input type="password" name="password">
-        <button type="submit">Войти</button>
-        </div>
+  <form action="/api/authorization" method="post" class="contact_form">
+    <ul>
+      <li>
+        <h2>Вход</h2>
+      </li>
+      <li>
+        <label>Email</label>
+        <input type="text" name="email" placeholder="mail@mail.ru" required />
+      </li>
+      <li>
+        <label>Пароль</label>
+        <input type="password" name="password" placeholder="Пароль" required />
+      </li>
+        <button class="submit" type="submit">Войти</button> <br>
+        <a>Если вы еще не зарегестрированы, <a href="/reg">зарегестрируйтесь</a></a>
+      </li>
+
+    </ul>
 
 </body>
 
