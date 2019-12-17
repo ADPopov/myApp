@@ -328,6 +328,11 @@ button.submit:active {
 }
 
 @media screen and (max-width: 950px) {
+    body {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
     .header {
         display: inline;
     }
@@ -402,6 +407,10 @@ button.submit:active {
         display: inline;
         visibility: hidden;
 
+    }
+
+    .body {
+        margin: 0;
     }
 
     .contact_form button {
